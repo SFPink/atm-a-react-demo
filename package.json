@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "jest",
-    "start": "node_modules/.bin/webpack-dev-server --mode development --open --hot",
+    "start": "node_modules/.bin/webpack-dev-server --mode development --open --hot --host 127.0.0.1 --port 3000",
     "build": "node_modules/.bin/webpack --config webpack.prod.js --mode production",
     "serve": "node_modules/.bin/http-server ./dist"
   },
