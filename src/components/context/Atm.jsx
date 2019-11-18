@@ -1,6 +1,8 @@
 import React, { useReducer } from 'react';
 import { withdraw } from 'helper/Atm';
 
+import BanknoteString from 'common/atm/BanknoteString';
+
 export const AtmContext = React.createContext();
 
 export const ATM_INVENTORY_UPDATE = 'atm_inventory_update';
