@@ -2,7 +2,7 @@
   padding-bottom: 50px;
 
   .atm-header {
-    background-color: #00000085;
+    background-color: rgba(0, 0, 0, 0.5);
     color: white;
     padding: 10px;
     display: flex;
@@ -21,7 +21,7 @@
     width: 450px;
     padding: 35px;
     margin: 0 auto;
-    background: #ffffffcf;
+    background: rgba(255, 255, 255, 0.8);
 
     .pin {
       text-align: center;
