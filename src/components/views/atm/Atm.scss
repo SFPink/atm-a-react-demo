@@ -1,0 +1,48 @@
+.atm {
+  padding-bottom: 50px;
+
+  .atm-header {
+    background-color: #00000085;
+    color: white;
+    padding: 10px;
+    display: flex;
+
+    .company-name,
+    .datetime {
+      flex: 1;
+    }
+
+    .datetime {
+      text-align: right;
+    }
+  }
+
+  .atm-content {
+    width: 450px;
+    padding: 35px;
+    margin: 0 auto;
+    background: #ffffffcf;
+
+    .pin {
+      text-align: center;
+      font-size: 2rem;
+      margin: 0px 0px 10px;
+    }
+
+    .large-balance .balance {
+      font-size: 2rem;
+    }
+  }
+
+  .atm-status {
+    padding: 10px;
+    background-color: rgba(255, 0, 0, 0.3);
+
+    .error-message {
+      margin: 0px;
+      font-weight: 600;
+      text-transform: uppercase;
+      color: white;
+    }
+  }
+}

@@ -1,0 +1,5 @@
+@mixin buttonHighlight($color, $percent: 15) {
+  background: darken($color, $percent);
+  outline: none;
+  transform: scale(0.96);
+}

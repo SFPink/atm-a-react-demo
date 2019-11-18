@@ -1,0 +1,25 @@
+@import 'styles/constants.scss';
+@import 'styles/mixins.scss';
+
+.keypad-row {
+  display: flex;
+  .keypad-button {
+    flex: 1;
+  }
+}
+
+.keypad-button {
+  border: 0;
+  padding: 1.5em;
+  background-color: $keypad-button;
+  margin: 1px;
+  cursor: pointer;
+  color: white;
+
+  transition: all 0.5s;
+
+  &:hover,
+  &:focus {
+    @include buttonHighlight($keypad-button);
+  }
+}

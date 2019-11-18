@@ -1,0 +1,11 @@
+html {
+  height: 100%;
+  background-image: url('../images/banking.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  #app,
+  body {
+    background-color: transparent;
+  }
+}
